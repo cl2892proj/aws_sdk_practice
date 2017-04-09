@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1491768774307",
+    "Statement": [
+        {
+            "Sid": "Stmt1491768767210",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::hello-world-youtube-video/*"
+        }
+    ]
+}
